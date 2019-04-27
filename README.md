@@ -1,7 +1,7 @@
-Node.js Jobs Queue
+Node.js - Jobs Queue
 ==================
 
-This project demonstrante how to implement job queues in Node.js using [Bull](https://github.com/optimalbits/bull) backed by [Redis](https://redis.io/).
+This project demonstrante how to implement job queues in Node.js using [Bull](https://github.com/optimalbits/bull), backed by [Redis](https://redis.io/).
 
 This architecture supports clustering the server safely, as Bull takes care of load-balancing and synchronization.
 
@@ -20,7 +20,7 @@ open http://localhost:3000/jobs
 
 ## Dependencies
 
-As this project uses Redis to store the jobs, you need to have Redis installed. The default Redis connection settings is used with support for custom settings using environment variables.
+As this project uses Redis to store the jobs, you need to have Redis installed. The default Redis connection settings are used, with support for custom settings using environment variables.
 
 ## Environment Variables
 - `PORT` (default: `3000`) — Web server port
