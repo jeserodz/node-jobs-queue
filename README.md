@@ -3,6 +3,10 @@ Node.js - Jobs Queue
 
 This project demonstrante how to implement job queues in Node.js using [Bull](https://github.com/optimalbits/bull), backed by [Redis](https://redis.io/).
 
+![](https://raw.githubusercontent.com/jeserodz/node-jobs-queue/master/images/screenshot-1.png)
+![](https://raw.githubusercontent.com/jeserodz/node-jobs-queue/master/images/screenshot-2.png)
+![](https://raw.githubusercontent.com/jeserodz/node-jobs-queue/master/images/screenshot-3.png)
+
 This architecture supports clustering the server safely, as Bull takes care of load-balancing and synchronization.
 
 ## Key Features and Concepts
