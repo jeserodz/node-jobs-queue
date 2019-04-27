@@ -1,0 +1,20 @@
+{
+  "name": "node-jobs-queue",
+  "version": "1.0.0",
+  "description": "This project demonstrante how to implement job queues in Node.js using Bull backed by Redis",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Jesé Rodríguez (hi@jese.me)",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.7.0",
+    "bull-arena": "^2.6.2",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/bull": "^3.5.11",
+    "@types/express": "^4.16.1"
+  }
+}
